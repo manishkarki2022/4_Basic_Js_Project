@@ -13,7 +13,7 @@ form.addEventListener('submit', function(e){
 
     }else{
         let bmi= (weight/(Math.pow((height/100),2))).toFixed() ;
-        results.innerHTML =`Your BMI is ${bmi}`
+        results.innerHTML =`<span>Your BMI is ${bmi}</span>`
     }
     
     
